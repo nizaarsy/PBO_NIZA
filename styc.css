@@ -1,0 +1,198 @@
+/* Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2a9d8f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo h2 {
+    margin: 0;
+}
+
+.navbar .search-bar input {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+}
+
+.navbar .search-bar button {
+    padding: 8px 15px;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar .search-bar button:hover {
+    background-color: #d14336;
+}
+
+/* Container untuk produk */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f8faf8;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #2a9d8f;
+}
+
+/* Grid untuk produk */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card untuk setiap produk */
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card .product-info {
+    margin-top: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-card p {
+    color: #e76f51;
+    font-weight: bold;
+}
+
+.product-card .btn-add-to-cart {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product-card .btn-add-to-cart:hover {
+    background-color: #1e7d6a;
+}
+
+/* Animasi tombol */
+button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Responsif untuk produk */
+.products {
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        align-items: center; /* Sentralisasi produk */
+    }
+
+    .navbar .search-bar input {
+        width: 150px;
+    }
+}
+
+/* Hover efek untuk elemen navbar */
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Warna teks produk */
+.product-card h3 {
+    font-size: 1.1rem;
+    color: #264653;
+    font-weight: bold;
+}
+
+.product-card p {
+    font-size: 1rem;
+}
+
+/* Styling tombol Admin dan Lihat Stok Barang */
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #2a9d8f;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button-container .btn:hover {
+    background-color: #1e7d6a;
+    transform: scale(1.1);
+}
+
+/* Styling untuk form search */
+.navbar .search-bar input {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+}
+
+.navbar .search-bar button {
+    padding: 8px 15px;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar .search-bar button:hover {
+    background-color: #d14336;
+}

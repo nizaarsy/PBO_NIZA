@@ -1,0 +1,76 @@
+/* Gaya Umum */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 20px;
+    background-color: #fef6e4; /* Warna pastel krem */
+    color: #444;
+}
+
+/* Kontainer Utama */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff9dc; /* Warna pastel kuning lembut */
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px dashed #f4a261; /* Warna pastel oranye */
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #2a9d8f; /* Warna pastel hijau toska */
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px #e76f51; /* Warna pastel merah muda */
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #e9c46a; /* Warna pastel kuning */
+}
+
+th {
+    background-color: #2a9d8f; /* Warna pastel hijau toska */
+    color: #fff;
+    padding: 10px;
+}
+
+td {
+    background-color: #fefae0; /* Warna pastel krem */
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #f4f1de; /* Warna pastel abu muda */
+}
+
+/* Tombol */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #2a9d8f; /* Warna pastel hijau toska */
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #1e7d6a; /* Warna hijau toska gelap */
+}

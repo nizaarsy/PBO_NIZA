@@ -1,0 +1,122 @@
+[
+    {
+        "id": "675129b627c8e",
+        "nama": "Blazer",
+        "harga": "350000",
+        "stok": "50"
+    },
+    {
+        "id": "675129dac2881",
+        "nama": "Cardigan",
+        "harga": "200000",
+        "stok": "100"
+    },
+    {
+        "id": "675129f355150",
+        "nama": "Kemeja Wanita",
+        "harga": "150000",
+        "stok": "100"
+    },
+    {
+        "id": "67512a2e84f5e",
+        "nama": "Sweater",
+        "harga": "180000",
+        "stok": "95"
+    },
+    {
+        "id": "67512a538f1df",
+        "nama": "Turtleneck",
+        "harga": "120000",
+        "stok": "80"
+    },
+    {
+        "id": "67512a661a707",
+        "nama": "Cargo",
+        "harga": "100000",
+        "stok": "90"
+    },
+    {
+        "id": "67512a92160de",
+        "nama": "Celana Corduroy",
+        "harga": "120000",
+        "stok": "78"
+    },
+    {
+        "id": "67512ab0c31bc",
+        "nama": "Celana Kulot",
+        "harga": "110000",
+        "stok": "99"
+    },
+    {
+        "id": "67512ade35462",
+        "nama": "Jogger Pants",
+        "harga": "95000",
+        "stok": "81"
+    },
+    {
+        "id": "67512afaa81ae",
+        "nama": "Rok",
+        "harga": "150000",
+        "stok": "70"
+    },
+    {
+        "id": "67512b2694836",
+        "nama": "Henley Shirt",
+        "harga": "85000",
+        "stok": "88"
+    },
+    {
+        "id": "67512b418612d",
+        "nama": "Jas",
+        "harga": "300000",
+        "stok": "65"
+    },
+    {
+        "id": "67512b56a1742",
+        "nama": "Kaos Oblong",
+        "harga": "50000",
+        "stok": "100"
+    },
+    {
+        "id": "67512b6c19d1a",
+        "nama": "Kemeja Pria",
+        "harga": "120000",
+        "stok": "95"
+    },
+    {
+        "id": "67512b89c880a",
+        "nama": "Polo Shirt",
+        "harga": "85000",
+        "stok": "20"
+    },
+    {
+        "id": "67512ba402ff3",
+        "nama": "Cargo Pria",
+        "harga": "120000",
+        "stok": "70"
+    },
+    {
+        "id": "67512bc93e26e",
+        "nama": "Celana Chino",
+        "harga": "150000",
+        "stok": "77"
+    },
+    {
+        "id": "67512bde1a2da",
+        "nama": "Celana Formal",
+        "harga": "200000",
+        "stok": "55"
+    },
+    {
+        "id": "67512c034d190",
+        "nama": "Celana Jeans",
+        "harga": "180000",
+        "stok": "89"
+    },
+    {
+        "id": "67512c207a004",
+        "nama": "Celana Pendek",
+        "harga": "100000",
+        "stok": "90"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nama": "niza",
+        "email": "niza@gmail.com",
+        "alamat": "kutaluhur"
+    },
+    {
+        "id": 2,
+        "nama": "Shifa",
+        "email": "shifa@gmail.com",
+        "alamat": "cilame"
+    },
+    {
+        "id": 3,
+        "nama": "dea",
+        "email": "dea@gmail.com",
+        "alamat": "ciburial"
+    },
+    {
+        "id": 4,
+        "nama": "arum",
+        "email": "arum@gmail.com",
+        "alamat": "panaris"
+    }
+]
